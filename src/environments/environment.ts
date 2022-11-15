@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrlgetAll: 'http://localhost:8000/getMovie',
+  baseUrlgetId: 'http://localhost:8000/queryById',
+  baseUrldelId: 'http://localhost:8000/delMovie',
+  baseUrlputId: 'http://localhost:8000/putMovie'
 };
 
 /*
